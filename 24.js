@@ -70,14 +70,14 @@ function showImage ()
 var allBigImages = document.querySelectorAll("#image1, #image2, #image3");
 
 for (x = 0; x < allBigImages.length; x++) {
-    allBigImages[x].className "hide " ;
+    allBigImages[x].className ="hide1"  ; 
 }
 var imgID = this.attributes["data-pic"].value;
 var picture = document.getElementById(imgID);
-if (picture.className === "hide") {
+if (picture.className === "hide1") {
 picture.className = "";
 }
 else {
-picture.className "hide" ;
+picture.className = "hide1" ;
 }
 }
