@@ -13,6 +13,7 @@ console.log("Merhaba2");
 var num1=document.querySelector( '#numberone');
 var num2 = document.querySelector('#numberTwo');
 var sum =document.querySelector('#sum');
+
 num1.addEventListener('input', topla);
 num2.addEventListener('input', topla);
 
@@ -70,14 +71,14 @@ function showImage ()
 var allBigImages = document.querySelectorAll("#image1, #image2, #image3");
 
 for (x = 0; x < allBigImages.length; x++) {
-    allBigImages[x].className ="hide1"  ; 
+    allBigImages[x].className ="hide"  ; 
 }
 var imgID = this.attributes["data-pic"].value;
 var picture = document.getElementById(imgID);
-if (picture.className === "hide1") {
+if (picture.className === "hide") {
 picture.className = "";
 }
 else {
-picture.className = "hide1" ;
+picture.className = "hide" ;
 }
 }
