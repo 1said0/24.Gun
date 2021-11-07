@@ -1,94 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport"
-content="width=device-width, initial-
-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>Javascript Events</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Javascript Events</title>
 
 
-<style>
-    #square {
-    position: absolute;
-    topl: 50px;
-    left: 100px;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    }
-    #rectangle {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    margin: 0 auto;
-    background-color: blue;
-    }
+    <style>
+        #square {
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        #rectangle {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            margin: 0 auto;
+            background-color: blue;
+        }
     </style>
 </head>
+
 <body>
 
 
 
 
 
-<button>Button</button>       
+    <button>Button</button>
 
-<br>
-        <div id="rectangle">
+
+
+
+
+    <h1>Javascript Events</h1>
+    <h2>Toplama işlemi</h2>
+    <p>
+        <input id="numberOne"> + <input id="numberTwo">
+    </p>
+    <p id="sum"></p>
+
+
+    <br>
+
+
+
+    <div id="rectangle">
         <div id="square"></div>
     </div>
 
-        
 
 
-        <br>
+
+    <br>
     <div id="accordion">
-    <h2>Section 1</h2>
-    <div id="section1">
+        <h2>Section 1</h2>
+        <div id="section1">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-    nisi ut aliquip ex ea commodo consequat.
-    </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+            </p>
 
+        </div>
+        <h2>Section 2</h2>
+        <div id="section2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+
+        <h2>Section 3</h2>
+        <div id="section3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
     </div>
-    <h2>Section 2</h2>
-    <div id="section2">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-    nisi ut aliquip ex ea commodo consequat.
-    </p>
-    </div>
-
-    <h2>Section 3</h2>
-    <div id="section3">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-    nisi ut aliquip ex ea commodo consequat.
-    </p>
-  
 
 
+    <button>Button</button>
 
     <h2>Simple Image Gallery</h2>
-<ul>
-<li><a data-pic="image1" id="thumb1" href="#"><img
-src="thumb1.jpg"></a></li>
-<li><a data-pic="image2" id="thumb2" href="#"><img
-src="thumb2.jpg"></a></li>
-<li><a data-pic="image3" id="thumb3" href="#"><img
-src="thumb3.jpg"></a></li>
-</ul>
+    <ul>
+        <li><a data-pic="image1" id="thumb1" href="#"><img src="thumb1.jpg" width="250px"></a></li>
+        <li><a data-pic="image2" id="thumb2" href="#"><img src="thumb2.jpg" width="250px"></a></li>
+        <li><a data-pic="image3" id="thumb3" href="#"><img src="thumb3.jpg" width="250px"></a></li>
+    </ul>
 
-<div>
-<img class="hide" id="image1" src="img1.jpg">
-<img class="hide" id="image2" src="img2.jpg">
-<img class="hide" id="image3" src="img3.jpg">
-</div>
+    <div>
+        <img class="hide" id="image1" width="250px" src="thumb1.jpg">
+        <img class="hide" id="image2" width="250px" src="thumb2.jpg">
+        <img class="hide" id="image3" width="250px" src="thumb3.jpg">
+    </div>
 
-<script src="24.js"></script>
+    <script src="24.js"></script>
 </body>
+
 </html>
